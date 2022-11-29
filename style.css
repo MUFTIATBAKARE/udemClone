@@ -1,0 +1,201 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: o;
+    padding: 0;
+    font-family: system-ui, Helvetica, Arial, sans-serif, 'Segoe UI', 'Open Sans', sans-serif;
+}
+.pageWrapper{
+    padding: auto;
+    width: 100%;
+}
+#header{
+    width: 100%;
+}
+#menu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    padding: 20px;
+
+}
+#searchBox{
+    position: relative;
+    font-size: 14px;
+    padding: 14px 300px 14px 60px;
+    border: 1px solid black;
+    border-radius: 25px;
+    background-color: rgb(252, 247, 247);
+    
+}
+#searchIcon{
+    position: absolute;
+    z-index: 1;
+    padding: 15px;
+}
+#menu ul li{
+    display: flex;
+    flex-direction: row;
+}
+#btn1{
+    padding: 12px;
+    padding-bottom: 4px;
+    background-color: white;
+    border: 1px solid black;
+    font-size: 14px;
+    font-weight: 700;
+}
+#btn2{
+    padding: 12px;
+    padding-bottom: 4px;
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+}
+#menu li {
+    padding-top: 20px;
+    font-size: 16px;
+}
+#cartIcon{
+    padding-top: 20px;
+    font-weight: 700;
+}
+#hr{
+    border: 2px solid lightgrey;
+}
+#heroSection{
+    position: relative;
+    margin: 0;
+    padding: 0;
+   
+}
+#heroText{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    padding: 20px 0px;
+    position: absolute;
+    z-index: 1;
+    margin-top: 50px;
+    margin-left: 80px;
+    width: 35%;
+    padding: 25px;
+}
+#heroText h2{
+    font-weight: 700;
+    font-size: 40px;
+    padding: 0;
+    margin: 0;
+    padding-bottom: 20px;
+    
+}
+#heroText h5{
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+.first{
+    margin: 0;
+    padding: 0;
+    padding: 20px;
+}
+.first h2{
+    font-weight: 700;
+    font-size: 35px;
+    padding: 15px 0 12px 0;
+    margin: 0;
+}
+.first h5{
+    margin: 0;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 6px 0;
+}
+#courseCarousel{
+    margin: 0;
+    padding: 6px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 60%;
+    font-weight: 700;
+    font-size: 18px;
+}
+.skillContainer{
+    margin: 0;
+    padding: 30px;
+    margin-top: 20px;
+    border: 1px solid lightgrey;
+}
+.skillContainer h3{ 
+    margin: 0;
+    padding: 0;
+    padding-bottom: 14px;
+}
+.skillContainer p{ 
+    margin: 0;
+    padding: 0;
+    width: 65%;
+    line-height: 24px;
+    margin-bottom: 28px;
+    font-size: 18px;
+}
+.skillContainer a{
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 12px;
+    color: black;
+    font-weight: 700;
+}
+.pythonCard{
+    margin: 0;
+    padding: 30px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+}
+#chevron{
+    position: absolute;
+    z-index: 1;
+    align-self: center;
+    font-size: 50px;
+    font-weight: 200;
+    color: white;
+    background-color: black;
+    border-radius: 50%;
+    text-align: right;
+    margin-left: 1200px; 
+}
+.browseWrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    background-color: rgb(221, 219, 219);
+}
+#browseIcon{
+    border-radius: 50%;
+    background-color: gray;
+    font-weight: 700;
+    padding: 4px;
+}
+#browseWrapper{
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+}
+.browseWrapper h5{
+    font-size: 16px;
+    
+    text-align: justify;
+}
