@@ -67,9 +67,7 @@ body{
     padding-top: 20px;
     font-weight: 700;
 }
-#hr{
-    border: 2px solid lightgrey;
-}
+
 #heroSection{
     position: relative;
     margin: 0;
@@ -133,7 +131,7 @@ body{
     margin: 0;
     padding: 30px;
     margin-top: 20px;
-    border: 1px solid lightgrey;
+    border: 1px solid rgb(242, 244, 248);
 }
 .skillContainer h3{ 
     margin: 0;
@@ -161,19 +159,6 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    position: relative;
-}
-#chevron{
-    position: absolute;
-    z-index: 1;
-    align-self: center;
-    font-size: 50px;
-    font-weight: 200;
-    color: white;
-    background-color: black;
-    border-radius: 50%;
-    text-align: right;
-    margin-left: 1200px; 
 }
 .browseWrapper{
     display: flex;
@@ -181,7 +166,7 @@ body{
     flex-wrap: wrap;
     justify-content: space-around;
     width: 100%;
-    background-color: rgb(221, 219, 219);
+    background-color: rgb(242, 244, 248);
 }
 #browseIcon{
     border-radius: 50%;
@@ -196,6 +181,64 @@ body{
 }
 .browseWrapper h5{
     font-size: 16px;
-    
     text-align: justify;
+}
+.second{
+    padding: 30px;
+}
+.studentsCard{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.third{
+    padding: 30px;
+}
+.categoriesCard{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.third p{
+    font-weight: 700;
+}
+.fourth{
+    padding: 30px;
+    background-color: rgb(242, 244, 248);
+}
+#topics{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 90%;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+#featureTopics a{
+    color: rgb(64, 27, 156);
+    font-weight: 700;
+    font-size: 16px;
+    text-decoration-style: solid;
+}
+#featureTopics p{
+    color: rgb(106, 111, 115);
+    font-weight: 400;
+    font-size: 14px;
+    text-decoration-style: solid;
+}
+#btn3{
+    padding: 12px;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: rgb(242, 244, 248);
+    border: 1px solid #1C1D1F;
+}
+.fifth{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
 }
