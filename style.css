@@ -7,7 +7,8 @@ body{
     font-family: system-ui, Helvetica, Arial, sans-serif, 'Segoe UI', 'Open Sans', sans-serif;
 }
 .pageWrapper{
-    padding: auto;
+    margin: 0;
+    padding: 0;
     width: 100%;
 }
 #header{
@@ -238,7 +239,86 @@ body{
 .fifth{
     display: flex;
     flex-direction: row;
+    justify-content: center;
     align-items: center;
     padding: 20px;
-    gap: 20px;
+    gap: 40px;
+}
+#instructorText{
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    width: 350px;
+    text-align: justify;
+    padding-bottom: 20px;
+}
+#btn4{
+    background-color: black;
+    color: white;
+    padding: 16px;
+    font-weight: 700;
+}
+#business{
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    color: rgb(149, 70, 180);
+    font-size: 20px;
+}
+#business p{
+    font-size: 28px;
+}
+.logoContent{
+    width: 100%;
+    text-align: center;
+}
+.logoWrapper{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+footer{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #1C1D1F;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 30px;
+    line-height: 30px;
+}
+footer img{
+    padding-left: 40px;
+    padding-top: 50px;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+footer ul li{
+    list-style-type: none;
+}
+#copy{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#btn5{
+    display: flex;
+    background-color: #1C1D1F;
+    border: 1px solid white;
+    color: white;
+    margin-top: 20px;
+    padding: 0 60px 0 12px;
+}
+#btn5 p{
+    font-size: 14px;
+}
+#btn5 span{
+    margin-top: 12px;
+    margin-right: 8px;
 }
