@@ -33,7 +33,7 @@ body{
     padding: 14px 300px 14px 60px;
     border: 1px solid black;
     border-radius: 25px;
-    background-color: rgb(252, 247, 247);
+    background-color: rgb(242, 244, 248);
     
 }
 #searchIcon{
@@ -72,6 +72,38 @@ body{
     padding-top: 14px;
     font-weight: 700;
 }
+.hide{
+    background-color: white;
+    border: 1px solid white;
+    width: 260px;
+    position: absolute;
+    z-index: 1;
+    display: none;
+}
+.hide h5{
+    color: black;
+    font-size: 16px;
+    text-align: center;
+    width: 250px;
+    padding-top: 12px;
+}
+.hide button{
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    padding: 12px;
+    margin: 12px 25px;
+    width: 210px;
+}
+.show{
+    position: relative;
+}
+.show:hover + .hide {
+    display: flex;
+    flex-direction: column;
+    margin-left: 680px;
+    margin-top: 70px;
+  }
 
 #heroSection{
     background-image: url(/assets/hero_image.jpg);
